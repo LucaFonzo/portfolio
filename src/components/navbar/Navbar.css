@@ -1,0 +1,21 @@
+
+.header {
+  margin: 0;
+  height: 3.5em;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-list li {
+  margin-right: 10px;
+  list-style: none;
+}

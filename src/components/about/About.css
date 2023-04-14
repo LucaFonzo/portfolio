@@ -1,0 +1,43 @@
+.about {
+  font-size: 2.7em;
+}
+
+.about-container {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.know-me-about {
+  font-size: 2em;
+}
+
+.skills-about {
+  font-size: 2em;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+.skill {
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.about-details {
+  max-width: 400px;
+}
+
+.about-details p{
+  font-size: 1.6em;
+  font-family: 'Times New Roman', Times, serif;
+}
