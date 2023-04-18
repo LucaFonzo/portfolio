@@ -12,8 +12,8 @@ function Footer() {
           <div>
             <span className='social-title'>Social</span>
             <div className='social-medias'>
-              <div className='icon'><i className="fa-brands fa-linkedin"></i></div>
-              <div className='icon'><i className="fa-brands fa-github"></i></div>
+              <div className='icon'><a href='https://www.linkedin.com/in/luca-fonzo-1ba3b11b8/' target='blank'><i className="fa-brands fa-linkedin"></i></a></div>
+              <div className='icon'><a href='https://github.com/LucaFonzo' target='blank'><i className="fa-brands fa-github"></i></a></div>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@
 }
 
 .about-container {
-  max-width: 800px;
+  max-width: 1000px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -16,6 +16,12 @@
 .skills-about {
   font-size: 2em;
 }
+h2 {
+  color: #f1f1f1;
+}
+h3 {
+  color: #f1f1f1;
+}
 
 .skills {
   display: flex;
@@ -24,13 +30,17 @@
 }
 
 .skill {
-  border: 1px solid #f1f1f1;
+  border: 1px solid;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
   background-color: #f1f1f1;
   margin-right: 10px;
   margin-top: 10px;
+}
+.skill:hover {
+  cursor: pointer;
+  background-color: #00ADB5;
 }
 
 .about-details {

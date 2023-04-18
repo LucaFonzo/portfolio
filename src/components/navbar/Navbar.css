@@ -1,14 +1,14 @@
 
 .header {
   margin: 0;
-  height: 3.5em;
+  height: 4em;
+  background-color: #393E46;
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
 }
 
 .navbar-list {
@@ -17,5 +17,16 @@
 }
 .navbar-list li {
   margin-right: 10px;
+  padding: 10px;
   list-style: none;
+}
+.navbar-list li a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.navbar-list li:hover {
+  background-color: #00ADB5;
+}
+.name {
+  color: #f1f1f1;
 }
