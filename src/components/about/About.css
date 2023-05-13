@@ -15,6 +15,7 @@
 
 .skills-about {
   font-size: 2em;
+  margin-bottom: 20px;
 }
 h2 {
   color: #f1f1f1;
@@ -50,4 +51,18 @@ h3 {
 .about-details p{
   font-size: 1.6em;
   font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 768px){
+  .about-container {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .skills {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
 }
