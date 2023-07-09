@@ -27,14 +27,6 @@ function About() {
             <div className='skill'>PostgreSQL</div>
             <div className='skill'>Rest API</div>
           </div>
-          <h3 className='skills-about text-center'>My Soft Skills</h3>
-          <div className='skills'>
-            <div className='skill'>Communication</div>
-            <div className='skill'>Adaptability</div>
-            <div className='skill'>Proactivity</div>
-            <div className='skill'>Teamwork</div>
-            <div className='skill'>Continuous learning</div>
-          </div>
         </div>
       </div>
     </div>
